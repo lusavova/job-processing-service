@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JobFormatterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-04-17T09:43:10" hostname="DESKTOP-0P60FJ5" time="0.149">
+<testsuite name="JobFormatterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-04-17T11:28:46" hostname="DESKTOP-0P60FJ5" time="0.147">
   <properties/>
   <testcase name="testFromType()" classname="JobFormatterTest" time="0.015"/>
-  <testcase name="testJsonJobFormatter()" classname="JobFormatterTest" time="0.128"/>
-  <testcase name="testScriptJobFormatter()" classname="JobFormatterTest" time="0.004"/>
+  <testcase name="testJsonJobFormatter()" classname="JobFormatterTest" time="0.127"/>
+  <testcase name="testScriptJobFormatter()" classname="JobFormatterTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
