@@ -133,6 +133,43 @@ curl -X POST \
 }'
 ```
 
+Using the `SCRIPT` query param you can run the commands directly from shell, for example:
+```
+curl -X POST \
+  'http://localhost:8080/api/v1/tasks/sort?outputFormat=SCRIPT' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "tasks": [
+    {
+      "name": "task-1",
+      "command": "touch /tmp/file1"
+    },
+    {
+      "name": "task-2",
+      "command": "cat /tmp/file1",
+      "requires": [
+        "task-3"
+      ]
+    },
+    {
+      "name": "task-3",
+      "command": "echo '\''Hello World!'\'' > /tmp/file1",
+      "requires": [
+        "task-1"
+      ]
+    },
+    {
+      "name": "task-4",
+      "command": "rm /tmp/file1",
+      "requires": [
+        "task-2",
+        "task-3"
+      ]
+    }
+  ]
+}' | bash
+```
+
 ### API Endpoints
 
 The following table lists the API endpoints provided by the application:
