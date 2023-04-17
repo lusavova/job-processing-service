@@ -4,9 +4,9 @@ Job Processing Service is a Spring Boot application that sorts a list of tasks b
 
 ## Table of Contents
 
-[Installation]()</br>
-[Usage]()</br>
-[API Endpoints]()</br>
+[Installation](https://github.com/lusavova/job-processing-service/blob/main/README.md#installation)</br>
+[Usage](https://github.com/lusavova/job-processing-service/blob/main/README.md#usage)</br>
+[API Endpoints](https://github.com/lusavova/job-processing-service/blob/main/README.md#api-endpoints)</br>
 
 ## Installation
 To install and run the application, follow these steps:
