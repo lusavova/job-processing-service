@@ -1,12 +1,22 @@
 # Job Processing Service
 
+## Table of Contents
+* [General info](#general-info)</br>
+* [Technologies](#technologies)</br>
+* [Installation](#installation)</br>
+* [Usage](#usage)</br>
+* [API Endpoints](#api-endpoints)</br>
+
+## General info
 Job Processing Service is a Spring Boot application that sorts a list of tasks based on their dependencies and returns the sorted list in the desired format.
 
-## Table of Contents
-
-[Installation](https://github.com/lusavova/job-processing-service/blob/main/README.md#installation)</br>
-[Usage](https://github.com/lusavova/job-processing-service/blob/main/README.md#usage)</br>
-[API Endpoints](https://github.com/lusavova/job-processing-service/blob/main/README.md#api-endpoints)</br>
+## Technologies
+Project is created with:
+- Java 11
+- Spring Boot 2.6.3
+- Gradle 7.3
+- JUnit 5.8.1
+- Jackson
 
 ## Installation
 To install and run the application, follow these steps:
@@ -53,7 +63,6 @@ gradlew.bat test
 ```
 
 ## Usage
-
 The application provides a RESTful API for sorting a list of tasks.
 The input format for the API is a JSON payload, and the output format can be specified using a query parameter.
 
