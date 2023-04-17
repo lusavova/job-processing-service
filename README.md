@@ -22,45 +22,46 @@ Project is created with:
 To install and run the application, follow these steps:
 
 1. Clone the repository:
-```console
-git clone https://github.com/lusavova/job-processing-service.git
-```
+    ```console
+    git clone https://github.com/lusavova/job-processing-service.git
+    ```
 
 2. Change into the project directory:
-```console
-cd job-processing-service
-```
+    ```console
+    cd job-processing-service
+    ```
 3. Build the project:
-If you are on Mac or Linux:
-```console
- ./gradlew build
-```
-If you are on Windows:
-```console
-gradlew.bat build 
-```
+    If you are on Mac or Linux:
+    ```console
+     ./gradlew build
+    ```
+    
+    If you are on Windows:
+    ```console
+    gradlew.bat build 
+    ```
 
 4. Run the application:
-For Mac or Linux:
-```console
- ./gradlew run
-```
-For Windows:
-```console
-gradlew.bat run 
-```
+    For Mac or Linux:
+    ```console
+     ./gradlew run
+    ```
+    For Windows:
+    ```console
+    gradlew.bat run 
+    ```
 
 The application will now be running on http://localhost:8080.
 
 5. Run the tests:
-For Mac or Linux:
-```console
- ./gradlew test
-```
-For Windows:
-```console
-gradlew.bat test 
-```
+    For Mac or Linux:
+    ```console
+     ./gradlew test
+    ``` 
+    For Windows:
+    ```console
+     gradlew.bat test 
+    ```
 
 ## Usage
 The application provides a RESTful API for sorting a list of tasks.
