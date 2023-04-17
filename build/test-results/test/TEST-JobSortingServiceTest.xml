@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JobSortingServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-04-17T09:43:10" hostname="DESKTOP-0P60FJ5" time="0.007">
+  <properties/>
+  <testcase name="Test sort method with tasks containing cyclic dependencies" classname="JobSortingServiceTest" time="0.004"/>
+  <testcase name="Test sort method with no tasks" classname="JobSortingServiceTest" time="0.0"/>
+  <testcase name="Test sort method with tasks containing no cyclic dependencies" classname="JobSortingServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
